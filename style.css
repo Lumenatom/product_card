@@ -1,0 +1,150 @@
+body {
+    background-color: gray;
+}
+
+.product_card-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 420px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.code_product {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.img_product {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.img_product img {
+    max-width: 250px;
+
+}
+
+.description_product {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.stock_product {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.discount p {
+    font-size: 14px;
+
+    color: #fff;
+    font-weight: 600;
+    background-color: red;
+    padding: 5px 10px;
+}
+
+.filter_popular p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    background-color: red;
+    padding: 5px 10px;
+}
+
+.title_product a {
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.rating_product a {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+
+.starts {
+    color: gold;
+}
+
+.reviews {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.674);
+}
+
+.price_product {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.name p {
+    color: rgba(0, 0, 0, 0.674);
+}
+
+.price_block {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 25px;
+    margin-top: -35px;
+}
+
+.price p {
+    color: red;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.cashback p {
+    font-weight: 600;
+    color: black;
+    background-color: bisque;
+    padding: 2px 5px;
+}
+
+.old_price p {
+    margin-top: -25px;
+    color: rgba(0, 0, 0, 0.674);
+    text-decoration: line-through;
+
+}
+
+.buttons_product {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+}
+
+.by_product a {
+    font-size: 30px;
+    padding: 6px 40px;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(3, 179, 3);
+    margin-right: 80px;
+}
+
+.favorites img {
+    width: 30px;
+    opacity: 0.6;
+}
+
+.comparison img {
+    width: 30px;
+    opacity: 0.6;
+
+
+}
